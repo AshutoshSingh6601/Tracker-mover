@@ -1,3 +1,9 @@
+:root{
+	--bgColor-1: #B80000;
+	--bgColor-2: #FF9800;
+	--bgColor-3: #5F8670;
+}
+
 /* header */
 body {
 	margin: 0;
@@ -343,7 +349,7 @@ body {
 
 	z-index: 2;
 	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
-	background: #2962ff;
+	background: var(--bgColor-1);
 	padding: 0 10px 20px 30px;
 	width: 97%;
 	height: 350px;
@@ -369,7 +375,7 @@ body {
 	font-weight: 500;
 	font-size: 20px;
 	text-align: center;
-	color: #fff;
+	/* color: #fff; */
 	width: 25rem;
 }
 .img {
@@ -396,7 +402,7 @@ body {
 
 	z-index: 1;
 	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
-	background: #fde427;
+	background: var(--bgColor-2);
 	padding: 0 10px 20px 30px;
 	width: 97%;
 	height: 350px;
@@ -428,10 +434,13 @@ body {
 	position: relative;
 	z-index: 2;
 	max-width: 360px;
+	border-radius: 10px;
+	box-shadow: 8px 8px 1px 0 rgb(0 0 0 / 50%);
 }
 .colWhite {
 	color: #fff;
 	font-size: 18px;
+	border-radius: 10px;
 }
 .revHeadName {
 	font-size: 22px;
